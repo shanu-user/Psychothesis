@@ -1,7 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import Login from './pages/Login'
+import Signup from './pages/Signup'
 import Chat from './pages/Chat'
+import ChatScreen from './screens/ChatScreen'
+import VideoScreen from './screens/VideoScreen'
 import { NavigationContainer } from '@react-navigation/native'
 import { createDrawerNavigator } from '@react-navigation/drawer'
 
@@ -13,7 +16,10 @@ export default function App() {
     <NavigationContainer>
       <Drawer.Navigator>
         <Drawer.Screen name="Login" component={Login}/>
+        <Drawer.Screen name="Signup" component={Signup}/>
         <Drawer.Screen name="Chat" component={Chat} />
+        <Drawer.Screen name="ChatScreen" component={ChatScreen} />
+        <Drawer.Screen name="VideoChatScreen" component={VideoScreen} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
