@@ -1,7 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button } from 'react-native';
 import Login from './pages/Login'
+import Front from './pages/Front'
 import Signup from './pages/Signup'
+import User from './pages/User'
 import Chat from './pages/Chat'
 import ChatScreen from './screens/ChatScreen'
 import VideoScreen from './screens/VideoScreen'
@@ -15,6 +17,8 @@ export default function App() {
   return (
     <NavigationContainer>
       <Drawer.Navigator>
+        <Drawer.Screen name="Front" component={Front}/>
+        <Drawer.Screen name="User" component={User}/>
         <Drawer.Screen name="Login" component={Login}/>
         <Drawer.Screen name="Signup" component={Signup}/>
         <Drawer.Screen name="Chat" component={Chat} />

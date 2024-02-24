@@ -4,7 +4,7 @@ import React from 'react'
 export default function Signup() {
   return (
     <View style={styles.container}>
-        
+        <Text>Signup</Text>
     </View>
   )
 }
