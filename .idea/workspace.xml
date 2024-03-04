@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4308af01-8dd5-4e55-a0ae-228e8168cbea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Front.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Front.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/TextChat.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/TextChat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/User.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +30,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",

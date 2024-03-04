@@ -3,9 +3,12 @@ import React from 'react'
 import Login from './Login'
 import Signup from './Signup'
 import { useState } from 'react'
-export default function User() {
+export default function User({route, navigation}) {
 
     const [section, setSection] = useState("Login")
+
+    
+
     return (
         <View style={styles.container}>
         <Image source={require("../assets/login_logo.png")} style={styles.login_logo}/>

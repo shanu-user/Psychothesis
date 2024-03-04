@@ -69,10 +69,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         borderWidth: 2,
     },
-    contacts: {
-        borderWidth: 2,
-        backgroundColor: '#e3e8e8',
-    },
+    
     contact_details: {
         display: 'flex',
         flexDirection: 'column',
@@ -84,6 +81,8 @@ const styles = StyleSheet.create({
         display: 'flex',
         flexDirection: 'row',
         marginBottom: 5,
+        marginLeft: 5,
+        marginRight: 5,
         borderRadius: 5,
         marginTop: 10,
         height: "15%"
