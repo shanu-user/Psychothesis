@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3AB23"
+    android:fitsSystemWindows="true"
+    tools:context=".LoginActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:textSize="34sp"
+        android:text="Log In"
+        android:textStyle="bold"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="16dp"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/colorPrimary"
+        app:boxStrokeWidthFocused="2dp"
+        app:endIconMode="custom"
+        app:hintTextColor="@color/colorPrimary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="48dp"
+
+            android:paddingEnd="16dp"
+            android:background="@drawable/rounded_prompt"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="8dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        app:boxBackgroundMode="outline"
+        app:boxStrokeColor="@color/colorPrimary"
+        app:boxStrokeWidthFocused="2dp"
+        android:layout_marginTop="350dp"
+        android:id="@+id/passwordLayout"
+        app:endIconMode="password_toggle"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        app:hintTextColor="@color/colorPrimary">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:background="@drawable/rounded_prompt"
+            android:inputType="textPassword"
+            android:paddingStart="48dp"
+            android:paddingEnd="16dp"
+            android:drawableStart="@drawable/ic_password"
+            android:drawablePadding="8dp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginButton"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="120dp"
+        android:backgroundTint="@color/colorPrimary"
+        style="@style/Widget.App.Button"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordLayout" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

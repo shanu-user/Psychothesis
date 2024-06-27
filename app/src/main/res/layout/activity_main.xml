@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C3AB23"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/view3"
+        android:layout_width="464dp"
+        android:layout_height="192dp"
+        android:visibility="visible"
+        android:orientation="vertical"
+        android:background="@drawable/rounded_corner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageView"
+        app:layout_constraintVertical_bias="0.997">
+
+        <TextView
+            android:id="@+id/quote"
+            android:layout_width="259dp"
+            android:layout_height="68dp"
+            android:layout_marginLeft="50dp"
+            android:text="@string/quote"
+            android:fontFamily=""
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="321dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="100dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/quote">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/loginButton"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="@color/black"
+                android:elevation="8dp"
+                android:text="Login"
+                android:textColor="@android:color/white"
+                app:cornerRadius="16dp"
+
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+
+            <Space
+                android:layout_width="26dp"
+                android:layout_height="wrap_content" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/signupButton"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:backgroundTint="@color/black"
+                android:elevation="8dp"
+                android:text="Signup"
+                android:textColor="@android:color/white"
+                app:cornerRadius="16dp"
+
+                app:strokeColor="@color/white"
+                app:strokeWidth="2dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
