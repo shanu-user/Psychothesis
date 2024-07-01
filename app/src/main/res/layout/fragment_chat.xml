@@ -3,16 +3,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/fragment_chat"
     tools:context=".ChatFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.materialswitch.MaterialSwitch
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/material_switch"
+            android:checked="true"
+            android:clickable="true"
+            android:focusable="true"
+            android:thumb="@drawable/thumb"
+            app:track="@drawable/track"
+            android:layout_gravity="center"
+            android:textOff="Video"
+            android:textOn="Text"
+            app:showText="true"
+            app:switchTextAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/child_fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#317CAB"
-        android:gravity="center"
-        android:text="Chat Fragment"
-        android:textSize="30sp" />
+        android:layout_marginTop="?attr/actionBarSize"/>
+<!--    <TextView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Chat Fragment"-->
+<!--        android:textSize="30sp" />-->
 
 </FrameLayout>
