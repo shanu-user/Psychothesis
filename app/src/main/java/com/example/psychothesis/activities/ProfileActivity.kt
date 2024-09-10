@@ -1,4 +1,4 @@
-package com.example.psychothesis
+package com.example.psychothesis.activities
 
 import android.os.Bundle
 import android.util.Log
@@ -13,6 +13,11 @@ import androidx.fragment.app.FragmentTransaction
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.NavController
 import androidx.navigation.ui.NavigationUI.setupWithNavController
+import com.example.psychothesis.R
+import com.example.psychothesis.fragments.CalendarFragment
+import com.example.psychothesis.fragments.ChatFragment
+import com.example.psychothesis.fragments.HomeFragment
+import com.example.psychothesis.fragments.ProfileFragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class ProfileActivity : AppCompatActivity() {

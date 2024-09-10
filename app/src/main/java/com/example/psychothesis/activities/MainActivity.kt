@@ -1,4 +1,4 @@
-package com.example.psychothesis
+package com.example.psychothesis.activities
 
 import android.os.Bundle
 import android.content.Intent
@@ -12,6 +12,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import com.example.psychothesis.databinding.ActivityMainBinding
 import androidx.core.view.WindowInsetsCompat
+import com.example.psychothesis.activities.ProfileActivity
+import com.example.psychothesis.R
+import com.example.psychothesis.activities.LoginActivity
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

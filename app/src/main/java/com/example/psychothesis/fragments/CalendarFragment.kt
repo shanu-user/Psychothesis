@@ -1,4 +1,4 @@
-package com.example.psychothesis
+package com.example.psychothesis.fragments
 
 import Event
 import EventsAdapter
@@ -13,6 +13,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.psychothesis.R
 import java.util.*
 import java.text.SimpleDateFormat
 

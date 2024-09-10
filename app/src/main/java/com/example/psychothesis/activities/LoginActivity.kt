@@ -1,9 +1,9 @@
-package com.example.psychothesis
+package com.example.psychothesis.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.ui.AppBarConfiguration
-import com.example.psychothesis.databinding.ActivityLoginBinding
+import com.example.psychothesis.R
 
 class LoginActivity : AppCompatActivity() {
 

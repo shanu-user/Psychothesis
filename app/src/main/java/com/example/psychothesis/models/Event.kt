@@ -5,5 +5,5 @@ data class Event(
     val event_description: String,
     val start_time: String,
     val end_time: String,
-    val created_at: String
+    val created_at: String,
 )

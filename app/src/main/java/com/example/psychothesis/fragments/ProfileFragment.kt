@@ -1,4 +1,4 @@
-package com.example.psychothesis
+package com.example.psychothesis.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
